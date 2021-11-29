@@ -1,4 +1,5 @@
 import random
+import art
 
 
 def deal_card():
@@ -36,8 +37,9 @@ def compare(user_score, computer_score):
         return "You lose 😤"
 
 
+
 def play_game():
-    print("logo")
+    print(art.logo)
     user_cards = []
     computer_cards = []
     is_game_over = False
